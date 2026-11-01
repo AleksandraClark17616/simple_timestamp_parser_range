@@ -1,0 +1,14 @@
+[project]
+name = "simple-timestamp-parser-range"
+version = "0.1.0"
+description = "Parse ISO 8601 timestamps that include an explicit UTC offset, returning an immutable Timestamp normalised to UTC."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
